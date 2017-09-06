@@ -1,9 +1,9 @@
 let a=1
 let b=2
 let x=0
-for (let i=1; a<=4000000; i++){
+for (; a<=4000000;){
   if (a%2 == 0){x += a}
   b += a
   a = b-a
-  console.log(x)
 }
+  console.log(x)
